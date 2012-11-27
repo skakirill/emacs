@@ -11,6 +11,8 @@
                                    'yaml-mode
                                    'find-file-in-project
                                    'magit
+                                   'highline
+                                   'Save-visited-files
                                    ;;'gist
 				)
   "Libraries that should be installed by default.")
