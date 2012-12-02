@@ -13,7 +13,8 @@
                                    'magit
                                    'highline
                                    'Save-visited-files
-                                   ;;'gist
+                                   'dired+
+				   ;;'gist
 				)
   "Libraries that should be installed by default.")
 

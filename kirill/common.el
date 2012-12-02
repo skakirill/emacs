@@ -1,12 +1,5 @@
 
 
-;;(desktop-save-mode 1)
-
-(require 'highline)
-(global-highline-mode 1)
-;; To customize the background color
-(set-face-background 'highline-face "#555")
-
 (setq display-time-day-and-date t
       display-time-24hr-format t)
 (display-time)
