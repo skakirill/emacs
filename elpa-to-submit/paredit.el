@@ -414,14 +414,14 @@ Paredit behaves badly if parentheses are imbalanced, so exercise
    ("M-s"       paredit-splice-sexp
                 ("(foo (bar| baz) quux)"
                  "(foo bar| baz quux)"))
-   (("ESC <up>")
-                paredit-splice-sexp-killing-backward
-                ("(foo (let ((x 5)) |(sqrt n)) bar)"
-                 "(foo (sqrt n) bar)"))
-   (("ESC <down>")
-                paredit-splice-sexp-killing-forward
-                ("(a (b c| d e) f)"
-                 "(a b c f)"))
+   ;; (("ESC <up>")
+   ;;              paredit-splice-sexp-killing-backward
+   ;;              ("(foo (let ((x 5)) |(sqrt n)) bar)"
+   ;;               "(foo (sqrt n) bar)"))
+   ;; (("ESC <down>")
+   ;;              paredit-splice-sexp-killing-forward
+   ;;              ("(a (b c| d e) f)"
+   ;;               "(a b c f)"))
    ("M-r"       paredit-raise-sexp
                 ("(dynamic-wind in (lambda () |body) out)"
                  "(dynamic-wind in |body out)"

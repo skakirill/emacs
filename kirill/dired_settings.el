@@ -16,3 +16,11 @@
      (lambda () (interactive) (find-alternate-file "..")))
    ;; was dired-up-directory
    ))
+
+;; Switches passed to `ls' for Dired.
+(setq dired-listing-switches "-lA")
+
+;; Non-nil means Dired shrinks the display buffer to fit the marked
+;; files.
+(setq dired-shrink-to-fit t)
+
