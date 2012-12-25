@@ -3,7 +3,8 @@
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-emacs-21)
+     (color-theme-vim-colors)
+;;     (color-theme-emacs-21)
      (color-theme-whateveryouwant)
      ))  ;; This is the theme you want to use.
 

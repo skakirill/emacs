@@ -79,11 +79,11 @@ http://www.emacswiki.org/cgi-bin/wiki/LayoutRestore")
 ;; ---------------------------------------------------------------
 ;; (require 'layout-restore)
  ;; save layout key
- (global-set-key [?\C-c ?l] 'layout-save-current)
+;; (global-set-key [?\C-c ?l] 'layout-save-current)
  ;; load layout key
- (global-set-key [?\C-c ?\C-l ?\C-l] 'layout-restore)
+;; (global-set-key [?\C-c ?\C-l ?\C-l] 'layout-restore)
  ;; cancel(delete) layout key
- (global-set-key [?\C-c ?\C-l ?\C-c] 'layout-delete-current)
+;; (global-set-key [?\C-c ?\C-l ?\C-c] 'layout-delete-current)
 ;; ---------------------------------------------------------------
 ;; Change the keybindings to whatever you like.
 ;;

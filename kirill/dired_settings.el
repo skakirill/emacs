@@ -1,3 +1,4 @@
+(require 'dired)
 ;; How to copy from one dired dir to the next dired dir shown in a
 ;; split window?
 (setq dired-dwim-target t)
@@ -23,4 +24,3 @@
 ;; Non-nil means Dired shrinks the display buffer to fit the marked
 ;; files.
 (setq dired-shrink-to-fit t)
-
